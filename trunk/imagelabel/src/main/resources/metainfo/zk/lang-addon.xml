@@ -1,0 +1,20 @@
+<language-addon>
+    <addon-name>imagelabel</addon-name>
+  	<version>
+		<version-class>org.zkoss.imagelabel.Version</version-class>
+		<version-uid>0.8.1</version-uid>
+		<zk-version>5.0.6</zk-version><!-- or later -->
+	</version>
+    
+	<language-name>xul/html</language-name>
+	<component>
+		<component-name>imagelabel</component-name> <!-- required -->
+		<component-class>org.zkoss.imagelabel.ImageLabel</component-class> <!-- required -->
+		<widget-class>imagelabel.ImageLabel</widget-class> <!-- required -->
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/imagelabel.js</mold-uri>
+			<css-uri>css/imagelabel.css.dsp</css-uri>
+		</mold>
+	</component>
+</language-addon>
